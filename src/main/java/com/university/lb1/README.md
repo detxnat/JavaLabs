@@ -35,7 +35,7 @@
 - `findBookByTitle(String title)`: Знайти книгу за назвою.
 - `listBooks()`: Вивести список всіх книг у бібліотеці.
 
-## [Тести до Лабораторної роботи №1]()
+## [Тести до Лабораторної роботи №1](https://github.com/detxnat/JavaLabs/blob/main/src/test/java/com/university/lb1/README.md)
 
 ## Висновок
 
