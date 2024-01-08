@@ -1,25 +1,24 @@
-import com.university.lb4_1.Palindrome;
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
-public class testPalindrome {
-    @Test
-    public void testIsPalindrome(){
-        Assertions.assertTrue(Palindrome.isPalindrome("null"));
-        Assertions.assertTrue(Palindrome.isPalindrome("banana"));
-        Assertions.assertTrue(Palindrome.isPalindrome("hannah"));
-        Assertions.assertTrue(Palindrome.isPalindrome("pup"));
-        Assertions.assertTrue(Palindrome.isPalindrome("lollipop"));
-        Assertions.assertTrue(Palindrome.isPalindrome("eye"));
-        Assertions.assertTrue(Palindrome.isPalindrome("6543456"));
-        Assertions.assertTrue(Palindrome.isPalindrome("step on no pets"));
-        Assertions.assertTrue(Palindrome.isPalindrome("A man a plan a canal Panama"));
-         
-    }
-    @Test
-    public void testNotPalindrome(){
-        Assertions.assertFalse(Palindrome.isPalindrome("123456"));
-        Assertions.assertFalse(Palindrome.isPalindrome("Not a palindrome!"));
-        Assertions.assertFalse(Palindrome.isPalindrome("gkgkgkgkgkgkgkkg"));
-    }
-}
+package com.university.lb4_1;
 
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
+import org.junit.jupiter.api.Test;
+
+public class MainTest {
+    @Test
+
+void isPalindrome() {
+    assertFalse(Main.isPalindrome(null));
+    assertTrue(Main.isPalindrome("radar"));
+    assertFalse(Main.isPalindrome("banana"));
+    assertTrue(Main.isPalindrome("hannah"));
+    assertTrue(Main.isPalindrome("pup"));
+    assertTrue(Main.isPalindrome("nan"));
+    assertFalse(Main.isPalindrome("lollipop"));
+    assertTrue(Main.isPalindrome("eye"));
+    assertTrue(Main.isPalindrome("6543456"));
+    assertTrue(Main.isPalindrome("step on no pets"));
+    assertFalse(Main.isPalindrome("A man a plan a canal Panama"));
+}
+}
