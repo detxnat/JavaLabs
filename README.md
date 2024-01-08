@@ -12,3 +12,5 @@
 ## [Лабораторна робота №4_1](https://github.com/detxnat/JavaLabs/blob/main/src/main/java/com/university/lb4_1/README.md)
 
 ## [Лабораторна робота №5](https://github.com/detxnat/JavaLabs/blob/main/src/main/java/com/university/lb5/README.md)
+
+## [Лабораторна робота №6](https://github.com/detxnat/JavaLabs/blob/main/src/main/java/com/university/lb6/README.md)
